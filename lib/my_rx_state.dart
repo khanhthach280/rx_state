@@ -24,9 +24,9 @@ class RxState<T> {
   }
 
   /// Cập nhật giá trị từ Future (bất đồng bộ)
-  Future<void> updateAsync(Future<T> futureValue) async {
+  Future<void> updateAsync(Future<T> Function() futureCallback) async {
     try {
-      final result = await futureValue; // Chờ đợi tác vụ bất đồng bộ
+      final result = await futureCallback(); // Gọi và chờ đợi callback
       value = result; // Cập nhật giá trị sau khi hoàn thành
     } catch (e) {
       print("Error while updating state: $e"); // Handle error nếu có

@@ -28,7 +28,7 @@ abstract class RxStateController {
   }
 
   /// Cập nhật state bất đồng bộ
-  Future<void> updateStateAsync<T>(String key, Future<T> updater) async {
+  Future<void> updateStateAsync<T>(String key, Future<T> Function() updater) async {
     final state = getState<T>(key);
     await state.updateAsync(updater);
   }
