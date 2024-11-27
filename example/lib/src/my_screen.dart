@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rx_state/rx_state.dart';
+import 'package:my_rx_state/rx_state.dart';
 
 import 'controller.dart';
 

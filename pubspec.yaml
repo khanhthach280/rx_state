@@ -1,5 +1,9 @@
-name: rx_state
-description: "A new Flutter package project."
+name: my_rx_state
+description: |
+  A simple and efficient state management package for Flutter that uses reactive programming (Rx) principles.
+  This package allows you to create reactive states, listen for changes, and update UI components efficiently.
+  It supports both synchronous and asynchronous state updates, as well as global state management through RxStateManager.
+  It also integrates with Flutter's widget lifecycle and can be used with custom widgets like RxBuilder and RxL complex state interactions.
 version: 0.0.1
 homepage:
 

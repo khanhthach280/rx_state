@@ -1,6 +1,4 @@
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 # Tài Liệu Thiết kế `RxState`
 
 ## 1. Giới thiệu

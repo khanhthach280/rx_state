@@ -1,7 +1,7 @@
 import 'package:example/src/life_cycle_test.dart';
 import 'package:example/src/my_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:rx_state/rx_state.dart';
+import 'package:my_rx_state/rx_state.dart';
 
 class MyApp extends StatelessWidget {
   // Tạo một RxState để quản lý biến đếm

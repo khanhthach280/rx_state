@@ -1,4 +1,4 @@
-import 'package:rx_state/rx_state.dart';
+import 'package:my_rx_state/rx_state.dart';
 
 class MyScreenController extends RxStateController {
   late final RxState<int> counter;
