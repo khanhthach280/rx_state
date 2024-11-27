@@ -25,6 +25,8 @@ class MyScreenController extends RxStateController {
   @override
   void dispose() {
     // TODO: implement dispose
+    counter.dispose();
+    message.dispose();
     super.dispose();
   }
 }
