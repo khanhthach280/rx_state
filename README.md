@@ -6,7 +6,7 @@
 
 Package của chúng tôi mang đến một giải pháp quản lý state đơn giản nhưng mạnh mẽ cho các ứng dụng Flutter. Dựa trên mô hình Reactive **Programming (Rx)**, package giúp bạn dễ dàng lắng nghe, cập nhật, và quản lý các state trong ứng dụng với hiệu suất cao.
 
-(https://baoflutter.com/wp-content/uploads/2020/05/rx-programming.png)
+![Programming (Rx)](https://baoflutter.com/wp-content/uploads/2020/05/rx-programming.png)
 
 Các thành phần chính trong package bao gồm:
 
